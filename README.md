@@ -6,7 +6,9 @@ Why?: I wrote this script as practice for automation scripts. It's not meant to 
 
 <h4>Usage</h4>
 <p>The Video Converter is run through the Windows Terminal or the CMD.
-The command is "Convert.bat convert "PATH_TO_FILE" OUTPUT_TYPE". An example is 'Convert.bat "C:\Users:\USERNAME\Desktop\Example.mkv .mp4"' The file is outputted to the Output/ directory - which is automatically created if it hasn't been already.</p>
+The command is "Convert.bat convert "PATH_TO_FILE" OUTPUT_TYPE". An example is 'Convert.bat "C:\Users:\USERNAME\Desktop\Example.mkv .mp4"' The file is outputted to the Output/ directory - which is automatically created if it hasn't been already.
+
+If you record videos using OBS Studio, A possible use case is to schedule video conversion after a video has been recorded. This allows you to record in .mkv so you don't lose your video if an issue occurs but you get the compatibility of .mp4 files.</p>
 
 <h4>Licensing</h4>
 <p>In order to remain compliant with ffmpeg licensing the converter is licensed under GPL-3.0. Source code for the ffmpeg executable used is also provided in a zip file. This software is provided WITHOUT a warranty.</p>
