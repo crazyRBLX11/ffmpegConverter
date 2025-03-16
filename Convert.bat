@@ -39,4 +39,4 @@ exit /b
 IF NOT EXIST Output (
     mkdir Output
 )
-ffmpeg -i %VideoInput% Videos\%OutputName%%OutputExtension%
+ffmpeg -i %FileInput% Videos\%OutputName%%OutputExtension%
