@@ -27,16 +27,16 @@ IF /I %Input%==show (
 
 :warrantypage
 echo:
-echo wowsers
+echo NEXT
 exit /b
 
 :conditionspage
 echo:
-echo wow
+echo NEXT
 exit /b
 
 :ConvertScript
 IF NOT EXIST Output (
     mkdir Output
 )
-ffmpeg -i %FileInput% Videos\%OutputName%%OutputExtension%
+ffmpeg -i %FileInput% Output\%OutputName%%OutputExtension%
